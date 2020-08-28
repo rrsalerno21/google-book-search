@@ -1,7 +1,7 @@
 import React from "react";
 import HeroText from "../components/HeroText";
 import BookSearch from "../components/BookSearch";
-import BookSearchResults from "../components/BookSearchResults";
+import BookList from "../components/BookList";
 
 const Search = () => {
   return (
@@ -11,7 +11,7 @@ const Search = () => {
         subTitle="Best damn thing you've ever seen"
       />
       <BookSearch />
-      <BookSearchResults />
+      <BookList title="Search Results" />
     </div>
   );
 };

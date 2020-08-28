@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const MyNavBar = () => {
   return (
-    <Navbar sticky="top" className="mb-2">
+    <Navbar sticky="top" className="pb-2" bg="primary" variant="dark">
       <Navbar.Brand href="/">Google Book Search</Navbar.Brand>
       <Nav>
         <Nav.Item>
