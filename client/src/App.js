@@ -1,11 +1,12 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>Hello Dumb!</h1>
+      <h1>Hey</h1>
     </div>
   );
-};
+}
 
 export default App;
